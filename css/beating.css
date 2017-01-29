@@ -1,0 +1,23 @@
+.beating {
+    animation-name: loading;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    text-align: center;
+    animation-direction: alternate;
+}
+
+/*
+@keyframes beating {
+    
+    0%   {font-weight: bolder;}
+    100% {font-weight: lighter;}
+}
+*/
+
+@keyframes beating {
+    
+    0%   {color:aqua}
+    100% {color:brown}
+
+}
